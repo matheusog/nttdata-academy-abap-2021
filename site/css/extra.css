@@ -1,0 +1,24 @@
+/*.md-header {
+  width: auto;
+
+  // Header button
+  &__button {
+    &.md-logo {
+      // Image or icon
+      img,
+      svg {
+        width: auto !important;
+      }
+    }
+
+  }
+} */
+
+a[data-md-component="logo"] img {
+    width: auto !important;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}

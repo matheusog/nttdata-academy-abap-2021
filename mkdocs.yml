@@ -1,0 +1,39 @@
+#Project Information
+site_name: NTT - Academia ABAP 2021
+site_description: Academia SAP ABAP da NTT - 2021
+site_author: Matheus Goulart
+site_url: https://nttdata.com/ntt-academy-abap-2021
+
+theme:
+  logo: icons/nttdata.png
+  name: material  
+  palette:
+    scheme: slate
+    primary: white
+
+#Repository
+repo_url: https://github.com/matheusog/ntt-academy-ABAP-2021.git
+
+#Customization
+extra_css: 
+  - css/extra.css
+
+extra: 
+    logo: icons/nttdata.png
+
+# Settings
+docs_dir: 'docs'
+site_dir: 'site'
+
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+
+# Welcome
+pages: 
+  - Home: 'index.md'
+  - Pré-Requisitos: 
+    - SAP GUI: 'PreRequisitos/abap.md'
+    - Eclipse: 'PreRequisitos/eclipse.md'
